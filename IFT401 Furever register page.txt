@@ -139,13 +139,13 @@ img {
 
     <label for="password"><b>Password</b></label>
 
-    <input type="password" placeholder="Enter password" name="password" id="password" required>
+    <input type="password" placeholder="Enter password" name="password" minlength="8" id="password" required>
 
  
 
     <label for="password-repeat"><b>Repeat Password</b></label>
 
-    <input type="password" placeholder="Repeat Password" name="password-repeat" id="password-repeat" required>
+    <input type="password" placeholder="Repeat Password" name="password-repeat" minlength="8" id="password-repeat" required>
 
  
 
