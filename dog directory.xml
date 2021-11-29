@@ -1,0 +1,67 @@
+<Root>
+<DogBread Dictionary>
+    <Highly Active Dog Breads>
+        <large dogs>
+            <large dog1> Doberman Pinchser </large dog1>
+            <large dog2> German Sheperd </large dog2>
+            <large dog3> Great Dane </large dog3>
+        </large dogs>
+
+        <medium dogs>
+            <med dog1>Austrialn Sheperd</med dog1>
+            <med dog2>Border collie</med dog2>
+            <med dog3>Siberian Husky</med dog3>
+        </medium dogs>
+
+        <small dogs>
+            <small dog1>Beagle</small dog1>
+            <small dog2>Russel Terrier</small dog2>
+            <small dog3>Pembroke Welsh Corgi</small dog3>
+        </small dogs>
+
+    </Highly Active Dog Breads>
+
+    <Moderate Active dog breads>
+            <large dog>
+                <large dog1>cane corso</large dog1>
+                <large dog2>Alaskan Malamute</large dog2>
+                <large dog3>American Bulldog</large dog3>
+            </large dog>
+            <medium dog>
+                <med dog1>canaan dog</med dog1>
+                <med dog2>carolina dog</med dog2>
+                <med dog3>chinese shar-pei</med dog3>
+            </medium dog>
+            <small dog>
+                <small dog1>cairn terrier</small dog1>
+                <small dog2>cocker spaniel</small dog2>
+                <small dog3>cesky terrier</small dog3>
+            </small dog>
+
+    </Moderate Active Dog Breads>
+
+
+
+    <CouchPotato dog breads>
+        <large dogs>
+            <large dog1>Pyrenean Mastiff</large dog1>
+            <large dog2>Saint Benard </large dog2>
+            <large dog3>BullMastiff</large dog3>
+        </large dogs>
+        <medium dogs>
+            <med dog1>Baset Hound </med dog1>
+            <med dog2>English Bulldog</med dog2>
+            <med dog3>Chow Chow</med dog3>
+        </medium dogs>
+        <small dogs>
+            <small dog1>Pekingese</small dog3>
+            <small dog2>Dachshund</small dog2>
+            <small dog3>Pug</small dog3>
+        </small dogs>
+    </CouchPotato dog breads>
+
+
+
+</DogBread Dictionary>
+
+</Root>
