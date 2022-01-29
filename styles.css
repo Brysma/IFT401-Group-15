@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background-color: #EAEAEA;
+  font-family: Calibri;
+}
+
+h1 {
+  margin-top: 0;
+  color: #FF2E63;
+}
+
+h3 {
+  color: #252A34;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  height: 10%;
+  width: 10%;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
