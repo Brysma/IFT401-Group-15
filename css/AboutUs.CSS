@@ -1,0 +1,79 @@
+.body2{
+  background-color: #333;
+}
+h1{
+
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+.container {
+
+  padding: 5px;
+  background-color: white;
+  margin:auto;
+  width:560px;
+  height: 480px;
+  border-radius: 10px;
+
+  }
+h2{
+  color: black;
+  margin:0;
+  padding: 10px;
+  text-align: center;
+
+}
+  input[type=text], input[type=password] {
+    border-radius: 8px;
+
+    width: 200px;
+
+    padding: 10px;
+
+    margin: 10px 25px 0 0;
+
+    display: inline-block;
+
+    border: solid;
+
+    background: #f1f1f1;
+
+  }
+  input[type=password2]{border-radius: 8px;
+
+  width: 500px;
+
+  padding: 10px;
+
+  margin: 10px 50px 0 0;
+
+  display: inline-block;
+
+  border: solid;
+
+  background: #f1f1f1;}
+
+
+  input[type=text]:focus, input[type=password]:focus {
+
+    background-color: #ddd;
+
+    outline: none;
+
+  }
+
+  a {
+
+    color: dodgerblue;
+
+  }
+
+  .signin {
+
+    background-color: #f1f1f1;
+
+    text-align: center;
+
+  }
+  p{text-align: center;}
