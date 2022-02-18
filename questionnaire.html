@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Questionnaire</title>
+  <link rel="stylesheet" href="css/reg.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body class="body2">
+  <div class="topnav">
+    <a class="active" href="index.html">FurEverDogs</a>
+    <a href="#about">About us</a>
+    <a href="#contact">Contact Us</a>
+  </div>
+
+  <br><br><br>
+  <p>Please complete the following questionnaire to allow our selection process to select the best dog breed match for your needs</p>
+
+  <br>
+  <form action="questionnaire.php">
+
+    <p>Do you prefer dog breeds that are small, medium, or large?
+        <input type="radio" name="size" value="small"/> Small
+        <input type="radio" name="size" value="medium"/> Medium
+       <input type="radio" name="size" value="large"/> Large
+    </p>
+    
+    <p>Do you plan to keep your dog indoor, outdoor, or a combination of both?
+       <input type="radio" name="indooroutdoor" value="indoor"/> Indoor
+        <input type="radio" name="indooroutdoor" value="outdoor"/> Outdoor
+        <input type="radio" name="indooroutdoor" value="both"/> Both
+    </p>
+    
+    <p>Do you live in a metro area?
+        <input type="radio" name="metro" value="yes"/> Yes
+        <input type="radio" name="metro" value="no"/> No 
+    </p>
+
+    <p>How big is your yard?
+      <input type="radio" name="yard" value="none"/> No yard
+      <input type="radio" name="yard" value="sub1"/> Less than 1 acre          
+      <input type="radio" name="yard" value="1"/> More than an acre
+    </p>
+
+    <p>Do you live near any dog parks or dog-accessible outdoor parks?
+      <input type="radio" name="parks" value="yes"/> Yes
+      <input type="radio" name="parks" value="no"/> No
+    </p>
+
+    <p>What is your average level of physical activity?
+      <input type="radio" name="activity" value="inactive"/> Sedentary
+      <input type="radio" name="activity" value="moderate"/> Moderatly Active
+      <input type="radio" name="activity" value="extremely"/> Very Active
+           </p>
+    <p>How much time do you spend at home on a given day (aside from sleeping)?
+      <input type="radio" name="athome" value="little"/> 0 - 4 Hours
+      <input type="radio" name="athome" value="moderate"/> 4 - 8 Hours
+      <input type="radio" name="athome" value="much"/> Over 8 Hours
+           </p>
+    <p>Do you consider yourself more of an introvert or extrovert?
+      <input type="radio" name="introextro" value="intro"/> Introvert
+      <input type="radio" name="introextro" value="extro"/> Extrovert
+           </p>
+    <p>How many other dogs or other pets do you currently own?
+      <input type="radio" name="pets" value="none"/> No other pets
+      <input type="radio" name="pets" value="one"/> One other pet
+      <input type="radio" name="pets" value="multiple"/> Multiple other pets
+           </p>
+    <p>Are there children present in the home?
+      <input type="radio" name="children" value="yes"/> Yes
+      <input type="radio" name="children" value="no"/> No
+           </p>
+    <p>How often does your household go on vacation?
+      <input type="radio" name="vacation" value="frequent"/> Frequently
+      <input type="radio" name="vacation" value="infrequent"/> Infrequently
+           </p>
+    <p>Do you plan to take your dog to work with you? Yes
+      <input type="radio" name="work" value="no"/> No
+           </p>
+    <br>
+      <input type="submit" name="submit" value="Submit"/>
+  </form>
+
+
+</body>
+
+</html>
